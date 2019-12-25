@@ -12,5 +12,5 @@ class Barrier(pygame.sprite.Sprite):
         self.rect.x = x
         self.rect.y = y
 
-    def render(self, surface, color):
+    def update(self, surface, color):
         pygame.draw.rect(surface, color, (self.rect.x, self.rect.y, self.width, self.height))
