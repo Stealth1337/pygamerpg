@@ -1,4 +1,3 @@
-
 import pygame
 
 
@@ -49,5 +48,4 @@ class PlayerBorders(pygame.sprite.Sprite):
             self.rect.y -= 5
         elif key == pygame.K_DOWN:
             self.rect.y += 5
-
 
